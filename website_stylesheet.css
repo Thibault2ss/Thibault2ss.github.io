@@ -22,7 +22,7 @@ body{
     overflox-y:hidden;
 }
 .parallax {
-    height: 122vw;
+    height: 121.45vw;
     overflow-x: hidden;
     overflow-y: auto;
     margin:0;
@@ -30,38 +30,40 @@ body{
     /*text-align: center;*/
 }
 h1{
-    font-family: Delicious-Roman;
-    letter-spacing: 5px;
+    font-family: "Freestyle Script";
+    letter-spacing: 3px;
     background: linear-gradient(90deg, rgb(220, 40, 53) 0%, rgb(230, 96, 26) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 h2{
-    font-family: "Segoe Print";
+    font-family: "Freestyle Script";
     display: inline-block;
-    color: #ffffff;
+    color: #ffcb4f;
     position: relative;
-    margin-top:50vh;
+    margin-top:40vh;
     padding:0;
     top:15px;
-    left:80px;
-    font-size: 5vh;
+    left:130px;
+    font-size: 10vh;
     letter-spacing: 3px;
+    font-weight: normal;
 
 }
 h3{
-    font-family: "Segoe Print";
+    font-family: "Freestyle Script";
     display: inline-block;
-    color: #ffffff;
+    color: #ffcb4f;
     position: relative;
     margin-top:45vh;
     padding:0;
     top:15px;
-    margin-right: 40px;
+    margin-right: 8vw;
     text-align: center;
     margin-left: 52vw;
-    font-size: 5vh;
+    font-size: 7vh;
     letter-spacing: 3px;
+    font-weight: normal;
 
 }
 .screenshot_left{
@@ -70,30 +72,31 @@ h3{
     vertical-align: middle;
     width: 100%;
     height: 80vh;
-    background-color: #ffffff;
+    background-color: #de3a46;
 }
 .screenshot_left img{
     float: left;
     margin-left: 15vw;
+    height: 55vh;
     vertical-align: middle;
-    margin-top: 5vh;
+    margin-top: 13vh;
 }
 .screenshot_left text{
-    font-family: "Segoe Print";
+    font-family: "Freestyle Script";
     position: inherit;
-    color: #1d1d1d;
+    color: #ffcb4f;
     margin-top: 35vh;
-    margin-right: 10vw;
+    margin-right: 22vw;
     float: right;
     margin-left: 5vw;
-    font-size: 5vh;
+    font-size: 10vh;
     letter-spacing: 3px;
 
 }
 
 .screenshot_right{
     position:relative;
-    background-color: #ffffff;
+    background-color: #ffcb4f;
     display: inline-block;
     vertical-align: middle;
     width: 100%;
@@ -103,17 +106,18 @@ h3{
     float: right;
     margin-right: 15vw;
     vertical-align: middle;
-    margin-top: 5vh;
+    margin-top: 12vh;
+    height: 55vh;
 }
 .screenshot_right text{
-    font-family: "Segoe Print";
+    font-family: "Freestyle Script";
     position: inherit;
-    color: #1d1d1d;
+    color: #de3a46 ;
     margin-top: 35vh;
     margin-left: 10vw;
     float: left;
     margin-right: 5vw;
-    font-size: 5vh;
+    font-size: 10vh;
     letter-spacing: 3px;
 
 }
@@ -233,6 +237,7 @@ nav a {
 }
 .fond_blanc{
     text-align: center;
-    background-color: #ffffff;
-    height:10vh;
+    background-color: rgb(222, 58, 70);
+    height:25vh;
+
 }
