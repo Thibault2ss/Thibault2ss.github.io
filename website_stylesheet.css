@@ -15,6 +15,12 @@
     font-weight: normal;
     src: url('Fonts/Delicious-Roman.otf');
 }
+@font-face {
+    font-family: 'Freestyle Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Fonts/Freestyle Script Regular.ttf');
+}
 body{
     margin:0;
     padding:0;
@@ -30,14 +36,14 @@ body{
     /*text-align: center;*/
 }
 h1{
-    font-family: "Freestyle Script";
+    font-family: "Freestyle Script Regular";
     letter-spacing: 3px;
     background: linear-gradient(90deg, rgb(220, 40, 53) 0%, rgb(230, 96, 26) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 h2{
-    font-family: "Freestyle Script";
+    font-family: "Freestyle Script Regular";
     display: inline-block;
     color: #ffcb4f;
     position: relative;
@@ -51,7 +57,7 @@ h2{
 
 }
 h3{
-    font-family: "Freestyle Script";
+    font-family: "Freestyle Script Regular";
     display: inline-block;
     color: #ffcb4f;
     position: relative;
@@ -82,11 +88,11 @@ h3{
     margin-top: 13vh;
 }
 .screenshot_left text{
-    font-family: "Freestyle Script";
+    font-family: "Freestyle Script Regular";
     position: inherit;
     color: #ffcb4f;
     margin-top: 35vh;
-    margin-right: 22vw;
+    margin-right: 15vw;
     float: right;
     margin-left: 5vw;
     font-size: 10vh;
@@ -110,7 +116,7 @@ h3{
     height: 55vh;
 }
 .screenshot_right text{
-    font-family: "Freestyle Script";
+    font-family: "Freestyle Script Regular";
     position: inherit;
     color: #de3a46 ;
     margin-top: 35vh;
@@ -237,7 +243,7 @@ nav a {
 }
 .fond_blanc{
     text-align: center;
-    background-color: rgb(222, 58, 70);
+    background-color: #de3a46;
     height:25vh;
 
 }
